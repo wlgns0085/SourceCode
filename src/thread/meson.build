@@ -4,7 +4,7 @@ app_sources = [
 
 executable('thread',
  app_sources,
- dependencies : [],
+ dependencies : [dep_thread],
  install : true,
  install_dir : ['../../thread'],
 )
